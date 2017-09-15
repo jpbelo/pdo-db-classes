@@ -119,7 +119,9 @@ $update->doIt();
 
 THE THIRD PARAMETER HAS TO BE A STRING WITH the values SEPARATED BY COMMAS ( , )
 
-IF ARRAY { $deleteThis = implode(', ', $deleteThis); }
+IF IT IS AN ARRAY
+``$deleteThis = implode(', ', $deleteThis);``
+
 ```
 $remove = new deleteDb('table_name', 'wherekey', $deleteThis);
 $remove->doIt();
