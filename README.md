@@ -6,8 +6,7 @@ PDO classes for CRUD
 ## CREATE
 
 ``$fields = array('txt', 'title');``
-
-$values = array('teste1', 'teste2');
+``$values = array('teste1', 'teste2');``
 
 
 $teste = new insertDb('table_name', $fields, $values);
