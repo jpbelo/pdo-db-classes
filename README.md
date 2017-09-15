@@ -32,14 +32,18 @@ $content = $obj->retrieveAll();
 2. RETRIVE
 
 	A. FOREACH LOOP (LIKE NEWS FEED)
+```
 		foreach ($content as $v1) { echo $v1['row_name']; }
 		or
 		foreach ($content as $v1) { echo $v1['1']; }
+```
 
-	B. INDIVIDUAL
+B. INDIVIDUAL
+```
 		echo $content[2][4];
 		or
 		echo $content[2]['row_name'];
+```
 
 -----------------------------------------
 
