@@ -25,8 +25,10 @@ PDO classes for CRUD
 RETRIEVE ALL VALUES FROM MULTIPLE ENTRIES - result 2 level array (an array of arrays)
 
 1. DEFINE THE OBJECT
-	$obj = new retrieveFromDb("*", "table_name WHERE username = '$log_user'");
-	$content = $obj->retrieveAll();
+```
+$obj = new retrieveFromDb("*", "table_name WHERE username = '$log_user'");
+$content = $obj->retrieveAll();
+```
 
 2. RETRIVE
 
