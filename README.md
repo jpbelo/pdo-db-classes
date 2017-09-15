@@ -1,7 +1,7 @@
 # pdo-db-classes
 PDO classes for CRUD
 
-have at least rows `ìd`` and  ``logtime``
+have at least rows ``id`` and  ``logtime``
 
 
 
