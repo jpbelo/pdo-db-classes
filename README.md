@@ -3,9 +3,9 @@ PDO classes for CRUD
 
 
 
-# CREATE
+## CREATE
 
-$fields = array('txt', 'title');
+``$fields = array('txt', 'title');``
 
 $values = array('teste1', 'teste2');
 
@@ -20,7 +20,7 @@ $teste->doIt();
 
 
 
-# READ
+## READ
 
 RETRIEVE ALL VALUES FROM MULTIPLE ENTRIES - result 2 level array (an array of arrays)
 
@@ -82,7 +82,7 @@ RETRIEVE SINGLE VALUE FROM A SINGLE ENTRY
 
 
 
-# UPDATE
+## UPDATE
 
 $fields = array('txt', 'title');
 $values = array('teste1', 'teste2');
@@ -97,7 +97,7 @@ $update->doIt();
 
 
 
-# REMOVE
+## REMOVE
 
 THE THIRD PARAMETER HAS TO BE A STRING WITH the values SEPARATED BY COMMAS ( , )
 
