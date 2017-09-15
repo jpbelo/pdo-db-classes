@@ -5,14 +5,13 @@ PDO classes for CRUD
 
 ## CREATE
 
-``$fields = array('txt', 'title');``
+```
+$fields = array('txt', 'title');
+$values = array('teste1', 'teste2');  OR  $values = array($value1, $value2);
 
-``$values = array('teste1', 'teste2');``  OR  ``$values = array($value1, $value2);``
-
-
-``$teste = new insertDb('table_name', $fields, $values);``
-
-``$teste->doIt();``
+$teste = new insertDb('table_name', $fields, $values);
+$teste->doIt();
+```
 
 
 
