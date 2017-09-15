@@ -7,7 +7,7 @@ PDO classes for CRUD
 
 ``$fields = array('txt', 'title');``
 
-``$values = array('teste1', 'teste2');``
+``$values = array('teste1', 'teste2');`` / ``$values = array($value1, $value2);``
 
 
 ``$teste = new insertDb('table_name', $fields, $values);``
