@@ -123,7 +123,7 @@ IF IT IS AN ARRAY
 ``$deleteThis = implode(', ', $deleteThis);``
 
 ```
-$remove = new deleteDb('table_name', 'wherekey', $deleteThis);
+$remove = new deleteDb('table_name', 'rowName', $deleteThis);
 $remove->doIt();
 ```
 
