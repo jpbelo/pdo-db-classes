@@ -21,7 +21,7 @@ $teste->doIt();
 
 ## READ
 
-RETRIEVE ALL VALUES FROM MULTIPLE ENTRIES - result 2 level array (an array of arrays)
+### RETRIEVE ALL VALUES FROM MULTIPLE ENTRIES - result 2 level array (an array of arrays)
 
 1. DEFINE THE OBJECT
 ```
@@ -45,9 +45,9 @@ or
 echo $content[2]['row_name'];
 ```
 
------------------------------------------
 
-RETRIEVE ALL VALUES FROM 1 ROW
+
+### RETRIEVE ALL VALUES FROM 1 ROW
 
 1. DEFINE THE OBJECT
 ```
@@ -61,9 +61,9 @@ print_r($content);
 echo $content[2];
 ```
 
------------------------------------------
 
-RETRIEVE ALL VALUES FROM A SINGLE ENTRY
+
+### RETRIEVE ALL VALUES FROM A SINGLE ENTRY
 
 1. DEFINE THE OBJECT
 ```
@@ -78,9 +78,9 @@ or
 echo $content[2];
 ```
 
------------------------------------------
 
-RETRIEVE SINGLE VALUE FROM A SINGLE ENTRY
+
+### RETRIEVE SINGLE VALUE FROM A SINGLE ENTRY
 
 1. DEFINE THE OBJECT
 ```
