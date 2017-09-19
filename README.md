@@ -23,7 +23,7 @@ $teste->doIt();
 
 ## READ
 
-### RETRIEVE ALL VALUES FROM MULTIPLE ENTRIES - result 2 level array (an array of arrays)
+### RETRIEVE ALL VALUES FROM MULTIPLE ENTRIES - result 2 level array (ARRAY OF ARRAYS OF STRINGS)
 
 1. DEFINE THE OBJECT
 ```
@@ -31,7 +31,7 @@ $obj = new retrieveFromDb("*", "table_name WHERE username = '$log_user'");
 $content = $obj->retrieveAll();
 ```
 
-2. RETRIVE
+2. RETRIEVE
 
 A. FOREACH LOOP (LIKE NEWS FEED)
 ```
@@ -49,7 +49,7 @@ echo $content[2]['row_name'];
 
 
 
-### RETRIEVE ALL VALUES FROM 1 ROW
+### RETRIEVE ALL VALUES FROM 1 ROW (ARRAY OF STRINGS)
 
 1. DEFINE THE OBJECT
 ```
@@ -65,7 +65,7 @@ echo $content[2];
 
 
 
-### RETRIEVE ALL VALUES FROM A SINGLE ENTRY
+### RETRIEVE ALL VALUES FROM A SINGLE ENTRY (ARRAY OF STRINGS)
 
 1. DEFINE THE OBJECT
 ```
@@ -82,7 +82,7 @@ echo $content[2];
 
 
 
-### RETRIEVE SINGLE VALUE FROM A SINGLE ENTRY
+### RETRIEVE SINGLE VALUE (STRING)
 
 1. DEFINE THE OBJECT
 ```
