@@ -27,7 +27,9 @@ $teste->doIt();
 
 1. DEFINE THE OBJECT
 ```
-$obj = new retrieveFromDb("*", "table_name WHERE username = '$log_user'");
+$obj = new retrieveFromDb("*", "table_name WHERE row_name = 'test'");
+OR
+$obj = new retrieveFromDb("*", "table_name WHERE row_name = '$test'");
 $content = $obj->retrieveAll();
 ```
 
@@ -53,7 +55,7 @@ echo $content[2]['row_name'];
 
 1. DEFINE THE OBJECT
 ```
-$obj = new retrieveFromDb("what", "table_name WHERE featured = 1 ORDER BY id desc");
+$obj = new retrieveFromDb("what_row", "table_name WHERE featured = 1");
 $content = $obj->retrieveAllFromRow();
 ```
 
